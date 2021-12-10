@@ -31,9 +31,3 @@
     "tailwindcss": "^2.2.4"
   }
 }
-
-"scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start -p $PORT"
-  }
