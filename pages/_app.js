@@ -5,7 +5,7 @@ function Marketplace({ Component, pageProps }) {
   return (
     <div>
       <nav className="border-b p-6">
-        <p className="text-4xl font-bold">Metaverse Marketplace</p>
+        <p className="text-4xl font-bold">NFT Bazaar Marketplace</p>
         <div className="flex mt-4">
           <Link href="/">
             <a className="mr-4 text-pink-500">
@@ -13,18 +13,18 @@ function Marketplace({ Component, pageProps }) {
             </a>
           </Link>
           <Link href="/create-item">
-            <a className="mr-6 text-pink-500">
-              Sell Digital Asset
+            <a className="mr-6 text-green-500">
+              Sell Your NFT
             </a>
           </Link>
           <Link href="/my-assets">
-            <a className="mr-6 text-pink-500">
-              My Digital Assets
+            <a className="mr-6 text-green-500">
+              Your Digital Assets
             </a>
           </Link>
           <Link href="/creator-dashboard">
-            <a className="mr-6 text-pink-500">
-              Creator Dashboard
+            <a className="mr-6 text-green-500">
+              Dashboard
             </a>
           </Link>
         </div>
